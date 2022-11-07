@@ -24,7 +24,7 @@ print ("[+] THIS SCRIPT CODDED BY ALIILAPRO")
 print ("[-] SITE: aliilapro.github.io") 
 print ("[-] TELEGRAM: aliilapro")
 print ("--------")
-referrer = os.environ['yourcode']
+referrer = os.environ.get('yourcode', None)
 def genString(stringLength):
 	try:
 		letters = string.ascii_letters + string.digits
