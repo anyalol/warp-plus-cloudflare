@@ -1,3 +1,3 @@
-FROM python:3-alpine
+FROM python:3.10.8-buster
 COPY . ./
-CMD ["python3", "wp-plus.py"]
+CMD ["bash", "start.sh"]
