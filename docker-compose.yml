@@ -6,4 +6,6 @@ services:
     container_name: warp
     environment:
       - yourcode=${yourcode}
+    port:
+      - 8080:8080
     restart: unless-stopped
